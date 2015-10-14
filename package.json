@@ -1,17 +1,24 @@
 {
   "name": "gulp-relate",
   "version": "1.0.0",
-  "description": "",
+  "description": "A gulp plugin to rewrite asset urls relative to a specified path.",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "?.git"
+    "url": "git+https://github.com/msfragala/gulp-relate.git"
   },
   "author": "msfragala",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/msfragala/gulp-relate/issues"
+  },
+  "homepage": "https://github.com/msfragala/gulp-relate#readme",
   "dependencies": {
     "gulp-util": "^3.0.6",
     "through2": "^2.0.0"
